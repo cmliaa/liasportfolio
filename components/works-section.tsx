@@ -10,7 +10,7 @@ export default function WorksSection() {
        title: "Denja",
        description: "Danja is a smart rental app that aggregates listings from various platforms to offer users a seamless and faster way to find and book villas. By centralizing access across multiple services, Danja enhances convenience, saves time, and ensures users always get the best available options in one place",
        image: "/images/image_2025-07-27_16-47-29.png",
-       link: "https://denja-example.com"
+       link: "https://cafebazaar.ir/app/app.denja.denja"
      },
     {
       id: 2,
