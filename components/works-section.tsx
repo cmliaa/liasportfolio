@@ -10,6 +10,7 @@ export default function WorksSection() {
        title: "Denja",
        description: "Danja is a smart rental app that aggregates listings from various platforms to offer users a seamless and faster way to find and book villas. By centralizing access across multiple services, Danja enhances convenience, saves time, and ensures users always get the best available options in one place",
        image: "/images/image_2025-07-27_16-47-29.png",
+       link: "https://denja-example.com"
      },
     {
       id: 2,
@@ -69,6 +70,17 @@ export default function WorksSection() {
                 <div className={`space-y-4 ${index % 2 === 1 ? "lg:col-start-3" : ""}`}>
                   <h3 className="text-xl md:text-2xl font-bold">{project.title}</h3>
                   <p className="text-base text-muted-foreground leading-relaxed">{project.description}</p>
+                  {project.link && (
+                    <a
+                      href={project.link}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="inline-block mt-2 text-blue-600 hover:underline"
+                    >
+                      Visit project
+                    </a>
+                  )}
+
                 </div>
                 <div className={`lg:col-span-2 ${index % 2 === 1 ? "lg:col-start-1 lg:row-start-1" : ""}`}>
                   <div className="relative overflow-hidden rounded-2xl group h-[600px] md:h-[700px]">
