@@ -5,13 +5,13 @@ import { motion } from "framer-motion"
 
 export default function WorksSection() {
   const projects = [
-     {
-       id: 1,
-       title: "Denja",
-       description: "Danja is a smart rental app that aggregates listings from various platforms to offer users a seamless and faster way to find and book villas. By centralizing access across multiple services, Danja enhances convenience, saves time, and ensures users always get the best available options in one place",
-       image: "/images/image_2025-07-27_16-47-29.png",
-       link: "https://cafebazaar.ir/app/app.denja.denja"
-     },
+    {
+      id: 1,
+      title: "Denja",
+      description: "Danja is a smart rental app that aggregates listings from various platforms to offer users a seamless and faster way to find and book villas. By centralizing access across multiple services, Danja enhances convenience, saves time, and ensures users always get the best available options in one place",
+      image: "/images/image_2025-07-27_16-47-29.png",
+      link: "https://cafebazaar.ir/app/app.denja.denja"
+    },
     {
       id: 2,
       title: "Mental Health Tracker",
@@ -22,7 +22,7 @@ export default function WorksSection() {
       id: 3,
       title: "CookShelf",
       description: "CookShelf is designed to help you focus on what really matters: delicious food No ads, no mess — just your meals, your tags, and your perfect grocery list.",
-      image: "/images/image_2025-07-29_22-01-35.png",
+      image: "/images/image_2025-07-29_22-17-16.png",
     },
     // {
     //   id: 4,
