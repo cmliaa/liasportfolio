@@ -16,7 +16,7 @@ export default function WorksSection() {
       id: 2,
       title: "Mental Health Tracker",
       description: "A clean, empathetic UI for a mental health tracking web app. Users can log moods, track emotional trends over time, and view personalized insights. The design focuses on minimal distractions and calm visuals to support mental well-being.",
-      image: "/images/image_2025-07-27_16-52-49.png",
+      image: "/images/dad.png",
     },
     {
       id: 3,
