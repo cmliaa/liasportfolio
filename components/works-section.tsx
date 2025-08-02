@@ -22,7 +22,7 @@ export default function WorksSection() {
       id: 3,
       title: "CookShelf",
       description: "CookShelf is designed to help you focus on what really matters: delicious food No ads, no mess — just your meals, your tags, and your perfect grocery list.",
-      image: "/images/image_2025-07-29_22-17-16.png",
+      image: "/images/image_2025-08-01_13-05-05.png",
     },
     // {
     //   id: 4,
